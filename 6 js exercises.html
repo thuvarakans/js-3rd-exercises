@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Try it</button>
+
+<button onclick="myFunction1()">Try it</button>
+
+
+<p id="demo"></p
+
+  <p id="demo1"></p>
+
+
+<script>
+var fruits = ["Apple"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.unshift("Pineapple", "Lemon");
+  document.getElementById("demo").innerHTML = fruits;
+}
+
+
+    function myFunction1() {
+      fruits.push("Orange", "Peach");
+      document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
